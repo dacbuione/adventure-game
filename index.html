@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Người Dệt Mộng Phiêu Lưu Gemini</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              sky: {
+                DEFAULT: '#00BFFF', // DeepSkyBlue for reference
+                '50': '#F0F9FF',
+                '100': '#E0F2FE',
+                '200': '#BAE6FD',
+                '300': '#7DD3FC',
+                '400': '#38BDF8',
+                '500': '#0EA5E9',
+                '600': '#0284C7',
+                '700': '#0369A1',
+                '800': '#075985',
+                '900': '#0C4A6E'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.0.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
